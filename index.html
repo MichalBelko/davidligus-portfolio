@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/davidligus-portfolio/favicon-96x96.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="/favicon-96x96.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Dávid Liguš - Finančné poradenstvo</title>
 
@@ -21,9 +21,20 @@
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
     />
-    <script type="module" crossorigin src="/davidligus-portfolio/assets/index-TpdL6clh.js"></script>
-    <link rel="stylesheet" crossorigin href="/davidligus-portfolio/assets/index-tFiM2mtr.css">
+    <script type="module" crossorigin src="/assets/index-pbJ6jcTe.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-pvWCdxIP.css">
   </head>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "tds-Gk0FdZF4FSs9w",
+      });
+    })();
+  </script>
   <body>
     <div id="app"></div>
     <script
@@ -46,5 +57,6 @@ https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
         //
       });
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
